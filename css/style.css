@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+.header {
+  min-height: 120vh;
+  background-image: url("../assets/hero-img.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-nav{
+  padding: 0.75rem 0.75rem;
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.3s ease-in-out;
+}
+nav.toolbar {
+  max-width: 80rem;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  padding: 0.625rem 0.75rem;
+  font-size: 1rem;
+  font-weight: SemiBold;
+  color: #344563;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  transition: color 0.2s ease-in-out;
+}
+
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container.hero {
+  padding: 10rem 3%;
+}
+
+h1.heading {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #344563;
+  text-align: center;
+  margin: 0;
+}
+
+.supporting-text {
+  max-width: 60ch;
+  margin: 1.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #172B4D;
+  text-align: center;
+}
+.chevron-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 20rem;
+  border: 1px solid #DFE1E6;
+  margin: 4.625rem 0 0 0
+}
+
+#green-text {
+  color: #36B37E;
+}
+
+/** Mobile Styles **/
+.hamburger-menu{
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-toolbar {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  h1.heading {
+      font-size: 2.5rem;
+  }
+
+  .header {
+      background-image: url("../assets/hero-img_mobile.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+  .mobile-toolbar {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;
+      font-size: 1.25rem;
+      font-weight: 600;
+  }
+  nav.toolbar {
+      display: none;
+  }
+  .container.hero {
+      padding: 4rem 1rem;
+  }
+  .container {
+      padding: 0;
+  }
+  .supporting-text {
+      max-width: 100ch;
+  }
+  .main-nav{
+      padding: 0.75rem 0.75rem;
+      background-color: rgba(255, 255, 255, 1);
+      transition: all 0.3s ease-in-out;
+  }
+}
