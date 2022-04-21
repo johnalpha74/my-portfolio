@@ -1,73 +1,27 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# my-portfolio
+Hello there I am Sean John the coder. I design and develop amazing websites. This is my portfolio to showcase abd test my skills in HTML and CSS. 
+
+# My-Portfolio
+!www.johnalpha.dev
 
 # Project Name
 
-> Description the project.
-
+> My Portfolio project
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+## Author
+👤 **John Alpha**
 
-## Live Demo (if available)
+- GitHub: [@johnalpha74](https://github.com/johnalpha74)
+- Twitter: [@johnalpha74](https://twitter.com/johnalpha74)
+- LinkedIn: [John Alpha](https://linkedin.com/in/johnalpha74)
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+>>>>>>> 25bb57724f86c0442eb494225c6b6402ef198bb9
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
