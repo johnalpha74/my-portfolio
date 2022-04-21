@@ -30,7 +30,7 @@ nav.toolbar {
 .nav-link {
   padding: 0.625rem 0.75rem;
   font-size: 1rem;
-  font-weight: semibold;
+  font-weight: 500;
   color: #344563;
   text-decoration: none;
   margin-left: 0.5rem;
