@@ -12,25 +12,27 @@ body {
   background-position: bottom;
   background-size: cover;
 }
+
 a.welcome {
   color: #344563;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
-
 }
+
 a.welcome:hover {
   color: #000;
 }
+
 ul.icons {
   list-style-type: none;
   display: flex;
-
 }
+
 ul.nav-items {
   list-style-type: none;
   display: flex;
-  
 }
+
 .main-nav {
   padding: 0.75rem 0.75rem;
   background-color: rgba(255, 255, 255, 0);
