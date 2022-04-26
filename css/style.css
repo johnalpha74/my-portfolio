@@ -232,6 +232,10 @@ ul.skill-tags {
   justify-content: center;
 }
 
+.button-group {
+  text-align: center;
+}
+
 /** Mobile Styles **/
 .hamburger-menu {
   width: 2.5rem;
@@ -507,5 +511,9 @@ button.see-project:focus {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 1.5rem;
+  }
+
+  .button-group {
+    text-align: center;
   }
 }
