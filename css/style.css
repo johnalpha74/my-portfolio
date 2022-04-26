@@ -41,6 +41,8 @@ a.welcome:hover {
 ul.icons {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 ul.nav-items {
@@ -330,10 +332,11 @@ ul.skill-tags {
 
 .contact-info {
   color: #172b4d;
-  font-size: 1.875rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 3.25rem;
   max-width: 40vw;
+  text-align: center;
 }
 
 .contact-form {
@@ -416,6 +419,25 @@ button.see-project:hover {
 button.see-project:focus {
   background-color: #008552;
   outline: 1px solid #008552;
+}
+
+.footer-section {
+  margin: 2.75rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+a.email-link {
+  text-decoration: none;
+  color: #42526e;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0.5rem 0;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
