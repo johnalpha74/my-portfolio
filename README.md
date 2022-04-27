@@ -1,8 +1,6 @@
 # my-portfolio
-Hello there I am Sean John the coder. I design and develop amazing websites. This is my portfolio to showcase abd test my skills in HTML and CSS. 
 
-# My-Portfolio
-This is my portfolio which has projects that I have done in the past. 
+Hello there I am Sean John the coder. I design and develop amazing websites. This is my portfolio to showcase abd test my skills in HTML and CSS.
 
 # Project Name
 
@@ -12,7 +10,9 @@ This is my portfolio which has projects that I have done in the past.
 
 - HTML
 - CSS
+
 ## Author
+
 👤 **John Alpha**
 
 - GitHub: [@johnalpha74](https://github.com/johnalpha74)
@@ -22,4 +22,3 @@ This is my portfolio which has projects that I have done in the past.
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
