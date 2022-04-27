@@ -2,7 +2,7 @@
 Hello there I am Sean John the coder. I design and develop amazing websites. This is my portfolio to showcase abd test my skills in HTML and CSS. 
 
 # My-Portfolio
-!www.johnalpha.dev
+This is my portfolio which has projects that I have done in the past. 
 
 # Project Name
 
@@ -18,8 +18,6 @@ Hello there I am Sean John the coder. I design and develop amazing websites. Thi
 - GitHub: [@johnalpha74](https://github.com/johnalpha74)
 - Twitter: [@johnalpha74](https://twitter.com/johnalpha74)
 - LinkedIn: [John Alpha](https://linkedin.com/in/johnalpha74)
-
->>>>>>> 25bb57724f86c0442eb494225c6b6402ef198bb9
 
 ## 📝 License
 
