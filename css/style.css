@@ -57,7 +57,7 @@ ul.nav-items {
 }
 
 nav.toolbar {
-  max-width: 80rem;
+  max-width: 72rem;
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
   display: flex;
@@ -104,6 +104,16 @@ h1.heading {
 
 #green-text {
   color: #36b37e;
+}
+
+.projects {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.about-container {
+  max-width: 72rem;
+  margin: 0 auto;
 }
 
 .projects-heading {
@@ -235,7 +245,7 @@ ul.skill-tags {
 }
 
 .button-group {
-  text-align: center;
+  text-align: left;
 }
 
 /** Mobile Styles **/
@@ -318,16 +328,18 @@ ul.skill-tags {
   justify-content: space-between;
   align-items: center;
   background-image: url(/assets/contact-bg.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
 .contact {
+  width: 72rem;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
 .contact-info {
@@ -335,12 +347,12 @@ ul.skill-tags {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 3.25rem;
-  max-width: 40vw;
-  text-align: center;
+  max-width: 34rem;
+  text-align: left;
 }
 
 .contact-form {
-  width: 60vw;
+  width: 100%;
 }
 
 .form-block {
@@ -470,6 +482,7 @@ a.email-link {
     font-weight: 700;
     line-height: 3.25rem;
     max-width: 100%;
+    text-align: center;
   }
 
   .contact-form {
@@ -502,10 +515,10 @@ a.email-link {
     align-items: center;
   }
 
-  .container {
-    max-width: 80rem;
+  div.container {
+    max-width: 72rem;
     margin: 0 auto;
-    padding: 10rem 3%;
+    padding: 5rem 3%;
   }
 
   .supporting-text {
