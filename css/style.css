@@ -136,13 +136,13 @@ h1.heading {
 
 @keyframes fadeIn {
   from {
-  transform: scale(1);
+    transform: scale(1);
   }
-  to {
-  transform: scale(1.2);
-}
-}
 
+  to {
+    transform: scale(1.2);
+  }
+}
 
 .collection-item {
   background-color: #ebf0ee;
