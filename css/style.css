@@ -125,12 +125,24 @@ h1.heading {
 
 .collection,
 .grid {
+  animation-name: fadeIn;
+  animation-duration: 1s;
   margin: 3.375rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-gap: 1.5rem;
 }
+
+@keyframes fadeIn {
+  from {
+  transform: scale(1);
+  }
+  to {
+  transform: scale(1.2);
+}
+}
+
 
 .collection-item {
   background-color: #ebf0ee;
