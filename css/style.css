@@ -80,14 +80,16 @@ h1.heading {
   color: #344563;
   text-align: center;
   margin: 0;
-  animation-name: tilt-45;
-  animation-duration: 2s;
+  // animation-name: tilt-45;
+ //  animation-duration: 2s;
 }
 
+/*
 @keyframes tilt-45 {
   from {transform: rotate(0deg)}
   to {transform: rotate(45deg)}
 }
+*/
 
 .supporting-text {
   max-width: 60ch;
