@@ -348,6 +348,7 @@ a.see-project:focus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  padding: 0 3%;
 }
 
 .contact {
