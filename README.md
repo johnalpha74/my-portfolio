@@ -4,6 +4,8 @@ Hello there I am Sean John the Full Stack Software Developer. I design and devel
 
 Here is a [link](https://johnalpha74.github.io/my-portfolio/)] to my portoflio. The portfolio is a living project. Come back later to see my new projects I will have added. 
 
+Here is a [link](https://johnalpha74.github.io/my-portfolio/) to my portoflio.
+
 # Project Name
 
 > My Portfolio project
