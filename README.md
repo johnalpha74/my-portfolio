@@ -2,9 +2,7 @@
 
 Hello there I am Sean John the Full Stack Software Developer. I design and develop amazing websites. This is my portfolio to showcase and test my skills in HTML and CSS. 
 
-Here is a [link](https://johnalpha74.github.io/my-portfolio/)] to my portoflio. The portfolio is a living project. Come back later to see my new projects I will have added. 
-
-Here is a [link](https://johnalpha74.github.io/my-portfolio/) to my portoflio.
+Here is a [link](https://johnalpha74.github.io/my-portfolio/)git  to my portoflio. The portfolio is a living project. Come back later to see my new projects I will have added. 
 
 # Project Name
 
