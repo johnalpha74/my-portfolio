@@ -2,6 +2,8 @@
 
 Hello there I am Sean John the coder. I design and develop amazing websites. This is my portfolio to showcase abd test my skills in HTML and CSS.
 
+Here is a [link](https://johnalpha74.github.io/my-portfolio/)] to my portoflio.
+
 # Project Name
 
 > My Portfolio project
