@@ -348,6 +348,7 @@
     "normalize-range": "^0.1.2",
     "normalize-selector": "^0.2.0",
     "normalize-url": "^6.1.0",
+    "npm": "^8.9.0",
     "npm-package-arg": "^9.0.2",
     "npm-registry-fetch": "^13.1.1",
     "npm-run-path": "^4.0.1",
