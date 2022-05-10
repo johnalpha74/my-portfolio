@@ -1,5 +1,5 @@
 const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+const navMenu = document.querySelector('.mobile-nav-menu');
 const navLinks = document.querySelectorAll('.mobile-nav-item');
 const welcome = document.querySelector('.welcome');
 
