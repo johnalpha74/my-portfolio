@@ -626,9 +626,10 @@ a.email-link {
 }
 
 @media only screen and (max-width: 768px) {
-  .nav-menu{
+  .nav-menu {
     flex-direction: column;
   }
+
   .mobile-nav-menu {
     position: fixed;
     left: -100%;
