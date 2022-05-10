@@ -10,23 +10,43 @@
 <body>
     <header>
         <div class="main-nav">
-            <!--- nav bar only for desktop -->
+            <!-- nav bar only for desktop -->
             <nav class="toolbar">
                 <ul class="nav-items">
-                    <li><a href="#" class="nav-link">Portoflio</a></li>
-                    <li><a href="#" class="nav-link">About</a></li>
-                    <li><a href="#" class="nav-link">Contact</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portoflio</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
+        
             <!--- nav bar only for mobile -->
-            <nav class="mobile-toolbar">
-                <a class="welcome" href="#">
-                    <div>Welcome</div>
-                </a>
-                <div class="hamburger-menu">
-                    <img src="/assets/icons/menu.svg" alt="">
+            <div class="mobile-header">
+                <nav class="mobile-navbar">
+                <a href="#" class="welcome">Welcome</a>
+                
+                    
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </nav>
+        </div>
+        </div>
+        <div class="mobile-nav-menu">
+            <ul class="nav-menu mobile-reset">
+                        
+                <li class="mobile-nav-item">
+                    <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="#about" class="mobile-nav-link">About</a>
+                </li>
+                <li class="mobile-nav-item">
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                </li>
+            </ul>
         </div>
     </header>
     <main>
@@ -55,7 +75,7 @@
         <!-- END MAIN PORTFOLIO -->
 
         <!-- PROJECTS -->
-        <section class="section">
+        <section class="section" id="portfolio">
             <div class="projects container">
                 <div>
                     <h2 class="projects-heading">
@@ -232,7 +252,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="about">
             <div class="container about-container">
                 <div class="about-me">
                     <h3 class="about-title">About Me</h3>
@@ -335,7 +355,7 @@
             </div>
         </section>
 
-        <div class="section contact-section">
+        <div class="section contact-section" id="contact">
             <div class="container contact">
                 <div class="contact-info">
                     I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -364,5 +384,6 @@
         </ul>
         <a class="email-link" href="mailto:email@example.com">myemailhere@email.com</a>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
