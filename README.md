@@ -22,6 +22,13 @@ Here is a [link]( https://johnalpha74.github.io/my-portfolio/) git to my portofl
 - Twitter: [@johnalpha74](https://twitter.com/johnalpha74)
 - LinkedIn: [John Alpha](https://linkedin.com/in/johnalpha74)
 
+## Contributor
+
+👤 **Massaillon Silue**
+
+- GitHub: [@massaillon](https://github.com/massaillon)
+- LinkedIn: [Massaillon Silue](https://linkedin.com/in/massaillonsilue)
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
