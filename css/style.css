@@ -275,7 +275,7 @@ ul.skill-tags {
   max-width: 65ch;
 }
 
-a.see-project {
+a.project-details {
   text-decoration: none;
   background-color: #36b37f;
   padding: 0.75rem;
@@ -285,12 +285,12 @@ a.see-project {
   margin: 0.5rem 0;
 }
 
-a.see-project:hover {
+a.project-details:hover {
   background-color: #36b37f;
   box-shadow: 0 8px 16px 0 rgba(54, 179, 127, 0.24);
 }
 
-a.see-project:focus {
+a.project-details:focus {
   background-color: #008552;
   outline: 1px solid #008552;
 }
@@ -417,7 +417,7 @@ textarea {
   min-height: 24px;
 }
 
-button.see-project {
+button.project-details {
   text-decoration: none;
   background-color: #36b37f;
   padding: 0.75rem;
@@ -449,12 +449,12 @@ textarea:focus {
   border-color: #60c095;
 }
 
-button.see-project:hover {
+button.project-details:hover {
   background-color: #36b37f;
   box-shadow: 0 8px 16px 0 rgba(54, 179, 127, 0.24);
 }
 
-button.see-project:focus {
+button.project-details:focus {
   background-color: #008552;
   outline: 1px solid #008552;
 }

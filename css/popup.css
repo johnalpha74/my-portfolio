@@ -8,10 +8,38 @@ body, h1, h2, h3 {
 /* Mobile Media Queries
 @media (max-width: 768px)*/
 
+
+.project-popup_title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+    align-items: center;
+}
+.close-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-size: 1.5rem;
+  align-items: center;
+ 
+}
+
+.closeButton-wrapper {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: .5rem;
+  background-color: #f9f9f9;
+  margin: 0 1rem 0 0 ;
+}
+.closeButton {
+  background-color: #f9f9f9;
+  border-radius: 0.25rem;
+}
 .popup {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
   gap: 12px;
   width: 54.5rem;
@@ -22,8 +50,7 @@ body, h1, h2, h3 {
 .popup-content-top {
   display: flex;
   margin: 1rem;
-  width: 80%;
-  height: 80%;
+
 }
 {
 .popup-cards {
@@ -109,4 +136,15 @@ body, h1, h2, h3 {
   color: #ccc;
   float: right;
   cursor: pointer;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+
 }
