@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body, h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+/* Mobile Media Queries
+@media (max-width: 768px)*/
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 54.5rem;
+  border: 1rem solid #ebecf0;
+  border-radius: .5rem;
+}
+
+.popup-content-top {
+  display: flex;
+  margin: 1rem;
+  width: 80%;
+  height: 80%;
+}
+{
+.popup-cards {
+    margin: 0.5rem 0.5rem 0 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #172b4d;
+    line-height: 1rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #ebf0ee;
+    border-radius: 0.25rem;
+}
+}
+
+.popup-skill-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    margin: 1rem;
+    transition: all 0.3s ease-in-out;
+    padding: 0 2rem;
+  }
+  
+  ul.popup-skill-tags {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .popup-skill-tag {
+    margin: 0.5rem 0.5rem 0 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1rem;
+    padding: 0.5rem;
+    background-color: #ebf0ee;
+    border-radius: 0.25rem;
+  }
+
+  .popup-project-link {
+    text-decoration: none;
+    background-color: #36b37f;
+    padding: 0.75rem;
+    font-size: 1.063rem;
+    color: #fff;
+    border-radius: 0.25rem;
+    margin: 0.5rem 0;
+}
+
+.popup-project-title {
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.popup-project-heading {
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.85rem;
+}
+
+.popup-project-body {
+  margin: 1rem;
+  font-size:1rem;
+  font-family: inter;
+  font-weight: 700
+  line-height: 1.875rem; 
+}
+
+.closeButton {
+  color: #ccc;
+  float: right;
+  cursor: pointer;
+}
