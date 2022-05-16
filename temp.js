@@ -37,6 +37,7 @@ const projectsSection = document.getElementById('projects-section');
 const section = document.createElement('section');
 projectsSection.appendChild(section);
 section.innerHTML = `
+
 <!-- PROJECTS -->
 <section class="section" id="portfolio">
     <div class="projects container">
@@ -67,10 +68,12 @@ section.innerHTML = `
                                 html
                             </span>
                         </div>
-                        <a href="" id="see-more" class="project-details">See Project</a>
+                        <a href="#" class="project-details" id="see-more">See More</a>
                     
                     </div>
+
                 </div>
+
                 <div class="collection-item">
                     <div class="collection-img">
                         <img class="collection-img" src="https://images.unsplash.com/photo-1638913974071-ad0045d13691?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="project image">
@@ -95,7 +98,9 @@ section.innerHTML = `
                         </div>
                         <a href="#" class="project-details">See Project</a>
                     </div>
+
                 </div>
+
                 <div class="collection-item">
                     <div class="collection-img">
                         <img class="collection-img" src="https://images.unsplash.com/photo-1638913974071-ad0045d13691?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="project image">
@@ -120,7 +125,9 @@ section.innerHTML = `
                         </div>
                         <a href="#" class="project-details">See Project</a>
                     </div>
+
                 </div>
+
                 <div class="collection-item">
                     <div class="collection-img">
                         <img class="collection-img" src="https://images.unsplash.com/photo-1638913974071-ad0045d13691?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="project image">
@@ -145,7 +152,9 @@ section.innerHTML = `
                         </div>
                         <a href="#" class="project-details">See Project</a>
                     </div>
+
                 </div>
+
                 <div class="collection-item">
                     <div class="collection-img">
                         <img class="collection-img" src="https://images.unsplash.com/photo-1638913974071-ad0045d13691?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="project image">
@@ -170,7 +179,9 @@ section.innerHTML = `
                         </div>
                         <a href="#" class="project-details">See Project</a>
                     </div>
+
                 </div>
+
                 <div class="collection-item">
                     <div class="collection-img">
                         <img class="collection-img" src="https://images.unsplash.com/photo-1638913974071-ad0045d13691?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="project image">
@@ -195,6 +206,7 @@ section.innerHTML = `
                         </div>
                         <a href="#" class="project-details">See Project</a>
                     </div>
+
                 </div>
             </div>
            
@@ -202,18 +214,13 @@ section.innerHTML = `
 `
 /* POPUP WINDOW */
 
-    const openWindow = document.getElementById('.see-more');
+    const openWindow = document.getElementById('see-more');
     openWindow.addEventListener('click', () => {  
     const main = document.createElement('div');
-    
     main.className = 'main';
     const popupWindow = document.createElement('div');
-    
-    popupWindow.className = 'popupWindow';
-    popupWindow.innerHTML = `  <!--POPUP SECTION-->
-    
-    <body style="background-color: #414141;">
-
+    popupWindow.className = 'popup-overlay';
+    popupWindow.innerHTML = ` 
     <div class="popup-overlay">
         <div class="popup-wrapper">
             <div class="closeBtn-wrapper">
@@ -305,7 +312,6 @@ section.innerHTML = `
             </div>
         </div>
     </div>
-</body>
 `
   main.appendChild(popupWindow);
   projectsSection.appendChild(main);
