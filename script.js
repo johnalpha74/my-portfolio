@@ -202,7 +202,7 @@ section.innerHTML = `
 `
 /* POPUP WINDOW */
 
-    const openWindow = document.getElementById('.see-more');
+    const openWindow = document.getElementById('see-more');
     openWindow.addEventListener('click', () => {  
     const main = document.createElement('div');
     
@@ -210,7 +210,7 @@ section.innerHTML = `
     const popupWindow = document.createElement('div');
     
     popupWindow.className = 'popupWindow';
-    popupWindow.innerHTML = `  <!--POPUP SECTION-->
+    section.innerHTML = `  <!--POPUP SECTION-->
     
     <body style="background-color: #414141;">
 
