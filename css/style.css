@@ -599,6 +599,7 @@ li.popupTags {
 }
 
 @media (min-width: 768px) {
+  
   nav.mobile-navbar {
     display: none;
   }
@@ -749,7 +750,7 @@ li.popupTags {
   .button-group {
     text-align: left;
   }
-}
+
 
 /* START MOBILE MENU */
 
@@ -838,7 +839,7 @@ li.popupTags {
   }
 }
 
-. .hamburger.active .bar:nth-child(2) {
+ .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
 
