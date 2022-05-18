@@ -275,7 +275,7 @@ ul.skill-tags {
   max-width: 65ch;
 }
 
-a.project-details {
+a.see-project {
   text-decoration: none;
   background-color: #36b37f;
   padding: 0.75rem;
@@ -285,12 +285,12 @@ a.project-details {
   margin: 0.5rem 0;
 }
 
-a.project-details:hover {
+a.see-project:hover {
   background-color: #36b37f;
   box-shadow: 0 8px 16px 0 rgba(54, 179, 127, 0.24);
 }
 
-a.project-details:focus {
+a.see-project:focus {
   background-color: #008552;
   outline: 1px solid #008552;
 }
@@ -417,7 +417,7 @@ textarea {
   min-height: 24px;
 }
 
-button.project-details {
+button.see-project {
   text-decoration: none;
   background-color: #36b37f;
   padding: 0.75rem;
@@ -449,12 +449,12 @@ textarea:focus {
   border-color: #60c095;
 }
 
-button.project-details:hover {
+button.see-project:hover {
   background-color: #36b37f;
   box-shadow: 0 8px 16px 0 rgba(54, 179, 127, 0.24);
 }
 
-button.project-details:focus {
+button.see-project:focus {
   background-color: #008552;
   outline: 1px solid #008552;
 }
@@ -487,6 +487,117 @@ a.email-link {
   height: 100vh;
 }
 
+.popup-overlay {
+  background-color: #C1C7D0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 100%;
+  backdrop-filter: blur(4px);
+  display: none;
+}
+
+
+.popup-wrapper {
+  background-color: #fff;
+  z-index: 100;
+  margin: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  border-radius: 1rem;
+  display: none;
+}
+
+.image-wrapper {
+  
+  height: 100%;
+  position: relative;
+}
+.popup-img {
+  width: 100%;
+}
+
+.closeBtn-mobile {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  left: auto;
+  bottom: auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 12px 0;
+}
+
+.popupDesc {
+  color: #344563;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.links-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+  font-size: 17px;
+}
+
+a.popup-button {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 0.25rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #36B37F;
+  padding: 12px 1rem;
+  margin: 0 1rem 0 0;
+  border-radius: 0.25rem;
+  width: 45%;
+}
+
+#seeSource {
+  width: 50%;
+  margin: 0;
+}
+ul.popupTags-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li.popupTags {
+  color: #3a4a42;
+  background-color: #ebf0ee;
+  border-radius: 0.25rem;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.5rem 12px;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.links-desktop { 
+  display: none;
+}
+
+.closeBtn-wrapper {
+  display: none;
+}
+
 @media (min-width: 768px) {
   nav.mobile-navbar {
     display: none;
@@ -515,6 +626,71 @@ a.email-link {
     justify-content: center;
   }
 
+  .popup-wrapper {
+    width: 920px;
+    margin: 5rem auto;
+    border-radius: .5rem;
+  }
+  .image-wrapper {
+    width: 100%;
+    max-height: 616px;
+    overflow-y: hidden;
+    object-fit: fit;
+    border-radius: 0.5rem;
+  }
+
+  .links-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    font-size: 17px;
+    width: 50%;
+  }
+
+  .links-mobile {
+    display: none;
+  }
+
+  .title-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  a.popup-button {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 0.25rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #36B37F;
+    padding: 12px 1rem;
+    margin: 0 1rem 0 0;
+    border-radius: 0.25rem;
+    flex: 1 1 auto; 
+  
+  }
+
+  .closeBtn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0.5rem 0;
+  }
+
+  .closeBtn-mobile {
+    display: none;
+  }
+
+  .close-button {
+    font-size: 40px;
+    text-decoration: none;
+  }
+}
   /* END - DESKTOP NAVIGATION MENU */
 
   /* START - DESKTOP HERO SECTION */
